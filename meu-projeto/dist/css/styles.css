@@ -12,27 +12,38 @@ body {
   background-color: #b0bec5; }
 
 .col2 {
+  overflow-y: scroll;
   background-color: #37474f; }
+
+.capa {
+  border-radius: 50%; }
 
 .navegacao {
   background-color: #607d8b;
   text-align: center;
   border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
   width: 100px;
   height: 100px;
   position: absolute;
   left: calc(50% - 50px);
-  top: 15%; }
+  top: 12%; }
+
+.sub {
+  position: relative;
+  top: 170px;
+  left: calc(50% - 62px); }
 
 .lista {
   position: absolute;
-  top: 210px;
+  top: 200px;
   width: 80px;
   left: calc(50% - 40px); }
 
 .image {
   position: relative;
-  top: 370px;
+  top: 300px;
   left: calc(50% - 100px); }
 
 .content {
@@ -41,32 +52,40 @@ body {
 .content.active {
   display: block; }
 
+li {
+  margin: 3px; }
+
 button {
   width: 80px;
-  height: 30px;
-  margin: 8px;
-  background-color: transparent;
-  /* Cor de fundo */
+  height: 25px;
+  background-color: #607d8b;
+  border: #77b1ce;
   color: black;
-  /* Cor do texto */
   border: none;
-  /* Remove a borda padrão */
   cursor: pointer;
-  /* Cursor de ponteiro ao passar por cima */
-  border-radius: 3px;
-  /* Borda arredondada */
-  transition: background-color 0.3s ease;
-  /* Transição suave da cor de fundo */ }
+  border-radius: 3px; }
 
 button:hover {
+  background-color: #37474f; }
+
+.btn1, .btn2, .btn3 {
+  position: relative;
+  top: 290px;
+  width: 30px;
+  height: 30px;
+  padding-left: 8px;
+  padding-top: 3px;
+  left: calc(50% - 60px);
+  display: inline-block;
+  margin-right: 10px;
   background-color: #37474f;
-  /* Cor de fundo alterada ao passar o mouse */ }
+  /* Cor do LinkedIn */
+  color: #fff;
+  /* Cor do texto */
+  border-radius: 15%;
+  /* Borda arredondada */
+  transition: background-color 0.3s ease;
+  /* Transição suave de cor */ }
 
-button:focus {
-  outline: none;
-  /* Remove o contorno ao focar */
-  box-shadow: #37474f;
-  /* Adiciona uma sombra ao focar */ }
-
-button:active {
-  background-color: #607d8b; }
+.btn1:hover, .btn2:hover, .btn3:hover {
+  background-color: #adaeaf; }

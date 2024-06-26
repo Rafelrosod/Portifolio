@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="dist/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
@@ -16,29 +18,39 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col s3 col1">
-                    <div class="navegacao">Texto</div>
+                    <div class="navegacao">
+                        <img class="capa" src="assets/rafa1.png" alt="foto capa" style="width: 98px; height: 98px;">
+                    </div>
+                    <div class="sub"><u>FullStack Developer</u></div>
                     <ul class="lista">
-                            <button onclick="showPage('page1')">Home</button>
-                            <button onclick="showPage('page2')">Sobre min</button>
-                            <button onclick="showPage('page3')">Projetos</button>
-                            <button onclick="showPage('page4')">Contato</button>
+                        <li><button onclick="showPage('page1')">Projetos</button></li>
+                        <li><button onclick="showPage('page2')">Sobre min</button></li>
+                        <li><button onclick="showPage('page3')">Contato</button></li>
+                    </ul>
+                    <ul class="icons">
+                        <a href="https://www.linkedin.com/in/rafael-ros/" class="btn1" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Rafelrosod" class="btn2" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:rafaelrosod@outlook.com" class="btn3" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
                     </ul>
                     <div class="image">
                         <img src="assets/codando.png" alt="personagem escrevendo codigo"
-                            style="width: 200px;height: 170px;">
+                            style="width: 15vw;height: 25vh;">
                     </div>
                 </div>
                 <div class="col s9 col2">
                     <div id="page1" class="content active">
-                        <h1>Home</h1>
+                        <h1>Projects</h1>
                     </div>
                     <div id="page2" class="content">
                         <h1>About Me</h1>
                     </div>
                     <div id="page3" class="content">
-                        <h1>Projects</h1>
-                    </div>
-                    <div id="page4" class="content">
                         <h1>Contact</h1>
                     </div>
                 </div>
