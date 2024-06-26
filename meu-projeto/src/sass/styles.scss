@@ -1,0 +1,64 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #b61212;
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.col1, .col2{
+    height: 100vh;
+}
+.col1{
+    position: relative;
+    background-color: #b0bec5;}
+.col2{background-color: #37474f;}
+
+.navegacao{
+    background-color: #607d8b;
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: calc(50% - 50px) ;
+    top: 15%;
+}
+.lista{
+    position: absolute;
+    top: 210px;
+    width: 80px;
+    left: calc(50% - 40px);
+}
+.image{
+    position: relative;
+    top: 370px;
+    left: calc(50% - 100px);
+}
+.content{
+    display: none;
+}
+.content.active{
+    display: block;
+}
+button {
+    width: 80px;
+    height: 30px;
+    margin: 8px;
+    background-color: transparent; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+    border-radius: 3px; /* Borda arredondada */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+button:hover {
+    background-color:#37474f; /* Cor de fundo alterada ao passar o mouse */
+}
+button:focus {
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: #37474f; /* Adiciona uma sombra ao focar */
+}
+button:active{
+    background-color: #607d8b;
+}
