@@ -1,86 +1,89 @@
-body{
+$primary-color: #1e2228;
+$secondary-color: #dec9b3;
+$tertiary: #3f293c;
+$quaternary: #70413c;
+$quinary: #274a4c;
+
+.noto-serif-jpuniquifier {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: $quinary;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
     margin: 0;
-    padding: 0;
     height: 100vh;
-}
-.col1, .col2{
-    height: 100vh;
-}
-.col1{
+    background: $primary-color;
+    overflow: hidden;
     position: relative;
-    background-color: #b0bec5;}
-.col2{
-    overflow-y: scroll;
-    background-color: #37474f;
 }
-.capa{
-    border-radius: 50%;
+
+@keyframes smokeMove {
+    0% {
+        transform: translateY(100vh) translateX(0) rotate(0) scale(1);
+        opacity: 0.2;
+    }
+    25% {
+        transform: translateY(50vh) translateX(10vw) rotate(15deg) scale(1.2);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateY(0) translateX(-10vw) rotate(30deg) scale(1.5);
+        opacity: 0.3;
+    }
+    75% {
+        transform: translateY(-50vh) translateX(10vw) rotate(15deg) scale(1.2);
+        opacity: 0.2;
+    }
+    100% {
+        transform: translateY(-100vh) translateX(0) rotate(0) scale(1);
+        opacity: 0.9;
+    }
 }
-.navegacao{
-    background-color: #607d8b;
-    text-align: center;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 1px;
-    width: 100px;
-    height: 100px;
+
+.smoke {
     position: absolute;
-    left: calc(50% - 50px) ;
-    top: 12%;
+    background: radial-gradient(circle, $quinary, transparent);
+    border-radius: 50%;
+    animation: smokeMove 20s infinite ease-in-out;
+    filter: blur(40px);
 }
-.sub{
-    position: relative;
-    top: 170px;
-    left: calc(50% - 62px) ;
+
+.smoke:nth-child(1) {
+    left: 5%;
+    animation-delay: 0s;
+    width: 150px;
+    height: 150px;
 }
-.lista{
-    position: absolute;
-    top: 200px;
-    width: 80px;
-    left: calc(50% - 40px);
+
+.smoke:nth-child(2) {
+    left: 20%;
+    animation-delay: 5s;
+    width: 200px;
+    height: 200px;
 }
-.image{
-    position: relative;
-    top: 300px;
-    left: calc(50% - 100px);
+
+.smoke:nth-child(3) {
+    left: 40%;
+    animation-delay: 10s;
+    width: 250px;
+    height: 250px;
 }
-.content{
-    display: none;
+.smoke:nth-child(4) {
+    left: 60%;
+    animation-delay: 10s;
+    width: 150px;
+    height: 150px;
 }
-.content.active{
-    display: block;
-}
-li{
-    margin: 3px;
-}
-button {
-    width: 80px;
-    height: 25px;
-    background-color: #607d8b;
-    border: #77b1ce;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 3px;
-}
-button:hover {
-    background-color:#37474f;
-}
-.btn1, .btn2, .btn3{
-    position: relative;
-    top: 290px;
-    width: 30px;
-    height: 30px;
-    padding-left: 8px;
-    padding-top: 3px;
-    left: calc(50% - 60px);
-    display: inline-block;
-    margin-right: 10px;
-    background-color: #37474f; /* Cor do LinkedIn */
-    color: #fff; /* Cor do texto */
-    border-radius: 15%; /* Borda arredondada */
-    transition: background-color 0.3s ease; /* Transição suave de cor */
-}
-.btn1:hover, .btn2:hover, .btn3:hover{
-    background-color:#adaeaf;
+.smoke:nth-child(5) {
+    left: 80%;
+    animation-delay: 5s;
+    width: 200px;
+    height: 200px;
 }
