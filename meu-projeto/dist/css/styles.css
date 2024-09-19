@@ -4,145 +4,211 @@
   font-style: normal;
   font-size: 6vh; }
 
+.home {
+  background-color: #e8d9c9;
+  height: 100vh;
+  width: 100%;
+  font-family: "Gowun Batang";
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.borda {
+  border-radius: 0.5vh;
+  border: #326273;
+  border-style: solid;
+  border-width: 0.2vw;
+  width: 80vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.text-titulo {
+  font-size: 6vh; }
+
+.titulo {
+  color: #274a4c;
+  font-size: 12vh;
+  opacity: 0;
+  animation: text infinite 6s forwards; }
+
+@keyframes text {
+  to {
+    opacity: 1; } }
+
+.sub-titulo {
+  font-size: 3vh;
+  margin-bottom: 4vh; }
+
+.barra {
+  width: 75vw;
+  height: 0.3vh;
+  background-color: #326273; }
+
+.gowun-batang-bold {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6vh; }
+
+.projetos {
+  background-color: #e8d9c9;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  font-size: 4vh;
+  align-items: center;
+  width: 100%;
+  height: 93vh; }
+
+.descritivo,
+.indices {
+  height: 93vh;
+  border: #326273; }
+
+.descritivo {
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #326273;
+  border-style: solid;
+  border-width: 2px 0px 2px 0px; }
+
+.container-text,
+.container-text-1,
+.container-text-2,
+.container-text-3 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #326273;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.container-text {
+  width: 41vw;
+  height: 85vh; }
+
+.container-text-1 {
+  width: 38vw;
+  height: 77vh; }
+
+.container-text-2 {
+  width: 35vw;
+  height: 69vh; }
+
+.container-text-3 {
+  width: 32vw;
+  height: 61vh; }
+
+.container-text-4 {
+  width: 29vw;
+  height: 59vh;
+  display: flex;
+  flex-direction: column; }
+
+.description-title {
+  font-size: 6vh;
+  color: #326273; }
+
+.description-text {
+  font-size: 3vh;
+  margin: 2vh;
+  font-family: "Gowun Batang", serif; }
+
+.button-mais {
+  text-decoration: none;
+  background-color: #326273;
+  color: #e8d9c9;
+  border-width: 1px;
+  border-color: #326273;
+  width: 8vw;
+  height: 6vh; }
+
+.button-mais:hover {
+  background-color: #e8d9c9;
+  color: #326273; }
+
+.indices {
+  display: flex;
+  width: 40vw;
+  flex-direction: column; }
+
+.qtd:hover {
+  color: white; }
+
+.row,
+.row1,
+.row2 {
+  display: flex; }
+
+.pintado {
+  width: 20vw;
+  height: 31vh;
+  background-color: #326273;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6vh; }
+
+.texto {
+  border: groove;
+  border-color: #326273;
+  border-width: 1px;
+  width: 20vw;
+  height: 31vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.rotate {
+  border-color: #326273;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  height: 93vh;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.titulo-p {
+  font-size: 10vh;
+  font-family: "Gowun Batang", serif;
+  writing-mode: vertical-rl;
+  text-orientation: upright; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  margin: 0;
-  height: 100vh;
-  background: #1e2228;
-  overflow: hidden;
-  position: relative; }
-
 .navbar {
   display: flex;
-  text-align: center;
   color: white;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.027);
-  /* Fundo semitransparente */ }
+  background-color: #326273;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%; }
 
 .navbar ul {
   list-style: none;
   display: flex;
   padding: 15px;
-  backdrop-filter: blur(10px); }
+  backdrop-filter: blur(10px);
+  align-items: center; }
 
 .navbar li {
-  padding-right: 8vw;
   font-size: 20px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  padding-right: 5vw;
+  padding-left: 5vw; }
 
-.principal {
-  display: flex;
-  justify-content: center; }
-
-.Projetos,
-.Sobre,
-.Artigos,
-.Contato {
-  height: 80vh;
-  width: 20vw;
-  background-color: rgba(255, 255, 255, 0.027);
-  margin: 4vh; }
-
-.Projetos {
-  background-color: #e8d9c9;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  font-size: 4vh;
-  border-radius: 2vh; }
-
-.ano {
-  margin-left: 3vw;
-  margin-bottom: 4vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
-
-.linha {
-  height: 0.5vh;
-  width: 8vw;
-  margin-right: 1vw;
-  background-color: #326273; }
-
-.fundo {
-  margin-bottom: 4vh; }
-
-.icone {
-  background-image: url("../../assets/Luffy.jpeg");
-  background-size: cover;
-  height: 8vh;
-  width: 4vw;
-  border-radius: 2vh;
-  background-color: #1e2228;
-  margin-right: 1vw; }
-
-.titleP {
-  color: #e8d9c9;
-  background-color: #326273;
-  margin-left: 2vw;
-  width: 15vw;
-  height: 8vh;
-  font-size: 2vh;
-  border-radius: 2vh;
-  display: flex;
-  align-items: center; }
-
-@keyframes smokeMove {
-  0% {
-    transform: translateY(100vh) translateX(0) rotate(0) scale(1);
-    opacity: 0.2; }
-  25% {
-    transform: translateY(50vh) translateX(10vw) rotate(15deg) scale(1.2);
-    opacity: 0.4; }
-  50% {
-    transform: translateY(0) translateX(-10vw) rotate(30deg) scale(1.5);
-    opacity: 0.3; }
-  75% {
-    transform: translateY(-50vh) translateX(10vw) rotate(15deg) scale(1.2);
-    opacity: 0.2; }
-  100% {
-    transform: translateY(-100vh) translateX(0) rotate(0) scale(1);
-    opacity: 0.9; } }
-
-.smoke {
-  position: absolute;
-  background: radial-gradient(circle, #274a4c, transparent);
-  border-radius: 50%;
-  animation: smokeMove 20s infinite ease-in-out;
-  filter: blur(40px); }
-
-.smoke:nth-child(1) {
-  left: 5%;
-  animation-delay: 0s;
-  width: 150px;
-  height: 150px; }
-
-.smoke:nth-child(2) {
-  left: 20%;
-  animation-delay: 5s;
-  width: 200px;
-  height: 200px; }
-
-.smoke:nth-child(3) {
-  left: 40%;
-  animation-delay: 10s;
-  width: 250px;
-  height: 250px; }
-
-.smoke:nth-child(4) {
-  left: 60%;
-  animation-delay: 10s;
-  width: 150px;
-  height: 150px; }
-
-.smoke:nth-child(5) {
-  left: 80%;
-  animation-delay: 5s;
-  width: 200px;
-  height: 200px; }
+.navbar li:hover {
+  color: #3f293c; }

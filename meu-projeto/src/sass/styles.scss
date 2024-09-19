@@ -1,175 +1,43 @@
-$primary-color: #1e2228;
+@import "home";
+@import "projetos";
+
+$primary-color: #326273;
 $secondary-color: #e8d9c9;
 $tertiary: #3f293c;
 $quaternary: #70413c;
 $quinary: #274a4c;
 
-.gowun-batang-bold {
-  font-family: "Gowun Batang", serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 6vh;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  margin: 0;
-  height: 100vh;
-  background: $primary-color;
-  overflow: hidden;
-  position: relative;
 }
 .navbar {
   display: flex;
-  text-align: center;
   color: white;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.027); /* Fundo semitransparente */
+  background-color: $primary-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
 }
 .navbar ul {
   list-style: none;
   display: flex;
   padding: 15px;
   backdrop-filter: blur(10px);
+  align-items: center;
 }
 .navbar li {
-  padding-right: 8vw;
   font-size: 20px;
   letter-spacing: 1px;
+  padding-right: 5vw;
+  padding-left: 5vw;
 }
-.principal {
-  display: flex;
-  justify-content: center;
-}
-
-.Projetos,
-.Sobre,
-.Artigos,
-.Contato {
-  height: 80vh;
-  width: 20vw;
-  background-color: rgba(255, 255, 255, 0.027);
-  margin: 4vh;
-}
-
-.Projetos {
-  background-color: $secondary-color;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  font-size: 4vh;
-  border-radius: 2vh;
-}
-.ano {
-  margin-left: 3vw;
-  margin-bottom: 4vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.linha {
-  height: 0.5vh;
-  width: 8vw;
-  margin-right: 1vw;
-  background-color: #326273;
-}
-.fundo {
-  margin-bottom: 4vh;
-}
-.align {
-}
-.icone {
-  background-image: url("../../assets/Luffy.jpeg");
-  background-size: cover;
-  height: 8vh;
-  width: 4vw;
-  border-radius: 2vh;
-  background-color: #1e2228;
-  margin-right: 1vw;
-}
-
-.titleP {
-  color: $secondary-color;
-  background-color: #326273;
-  margin-left: 2vw;
-  width: 15vw;
-  height: 8vh;
-  font-size: 2vh;
-  border-radius: 2vh;
-  display: flex;
-  align-items: center;
-}
-.Sobre {
-}
-.Artigos {
-}
-.Contato {
-}
-
-@keyframes smokeMove {
-  0% {
-    transform: translateY(100vh) translateX(0) rotate(0) scale(1);
-    opacity: 0.2;
-  }
-  25% {
-    transform: translateY(50vh) translateX(10vw) rotate(15deg) scale(1.2);
-    opacity: 0.4;
-  }
-  50% {
-    transform: translateY(0) translateX(-10vw) rotate(30deg) scale(1.5);
-    opacity: 0.3;
-  }
-  75% {
-    transform: translateY(-50vh) translateX(10vw) rotate(15deg) scale(1.2);
-    opacity: 0.2;
-  }
-  100% {
-    transform: translateY(-100vh) translateX(0) rotate(0) scale(1);
-    opacity: 0.9;
-  }
-}
-
-.smoke {
-  position: absolute;
-  background: radial-gradient(circle, $quinary, transparent);
-  border-radius: 50%;
-  animation: smokeMove 20s infinite ease-in-out;
-  filter: blur(40px);
-}
-
-.smoke:nth-child(1) {
-  left: 5%;
-  animation-delay: 0s;
-  width: 150px;
-  height: 150px;
-}
-
-.smoke:nth-child(2) {
-  left: 20%;
-  animation-delay: 5s;
-  width: 200px;
-  height: 200px;
-}
-
-.smoke:nth-child(3) {
-  left: 40%;
-  animation-delay: 10s;
-  width: 250px;
-  height: 250px;
-}
-.smoke:nth-child(4) {
-  left: 60%;
-  animation-delay: 10s;
-  width: 150px;
-  height: 150px;
-}
-.smoke:nth-child(5) {
-  left: 80%;
-  animation-delay: 5s;
-  width: 200px;
-  height: 200px;
+.navbar li:hover {
+  color: $tertiary;
 }

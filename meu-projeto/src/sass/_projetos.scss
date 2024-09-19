@@ -1,0 +1,142 @@
+$primary-color: #326273;
+$secondary-color: #e8d9c9;
+$tertiary: #3f293c;
+$quaternary: #70413c;
+$quinary: #274a4c;
+
+.gowun-batang-bold {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6vh;
+}
+
+.projetos {
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  font-size: 4vh;
+  align-items: center;
+  width: 100%;
+  height: 93vh;
+}
+.descritivo,
+.indices {
+  height: 93vh;
+  border: $primary-color;
+}
+.descritivo {
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: $primary-color;
+  border-style: solid;
+  border-width: 2px 0px 2px 0px;
+}
+.container-text,
+.container-text-1,
+.container-text-2,
+.container-text-3 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-text {
+  width: 41vw;
+  height: 85vh;
+}
+.container-text-1 {
+  width: 38vw;
+  height: 77vh;
+}
+.container-text-2 {
+  width: 35vw;
+  height: 69vh;
+}
+.container-text-3 {
+  width: 32vw;
+  height: 61vh;
+}
+.container-text-4 {
+  width: 29vw;
+  height: 59vh;
+  display: flex;
+  flex-direction: column;
+}
+.description-title {
+  font-size: 6vh;
+  color: $primary-color;
+}
+.description-text {
+  font-size: 3vh;
+  margin: 2vh;
+  font-family: "Gowun Batang", serif;
+}
+.button-mais {
+  text-decoration: none;
+  background-color: $primary-color;
+  color: $secondary-color;
+  border-width: 1px;
+  border-color: $primary-color;
+  width: 8vw;
+  height: 6vh;
+}
+.button-mais:hover {
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+
+.indices {
+  display: flex;
+  width: 40vw;
+  flex-direction: column;
+}
+.qtd:hover {
+  color: white;
+}
+.row,
+.row1,
+.row2 {
+  display: flex;
+}
+.pintado {
+  width: 20vw;
+  height: 31vh;
+  background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6vh;
+}
+.texto {
+  border: groove;
+  border-color: $primary-color;
+  border-width: 1px;
+  width: 20vw;
+  height: 31vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rotate {
+  border-color: $primary-color;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  height: 93vh;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo-p {
+  font-size: 10vh;
+  font-family: "Gowun Batang", serif;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
