@@ -1,8 +1,6 @@
-$primary-color: #326273;
-$secondary-color: #e8d9c9;
+$primary-color: #fcf6b1;
+$secondary-color: #326273;
 $tertiary: #3f293c;
-$quaternary: #70413c;
-$quinary: #274a4c;
 
 .gowun-batang-bold {
   font-family: "Gowun Batang", serif;
@@ -18,6 +16,206 @@ $quinary: #274a4c;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+#aws,
+#dart,
+#css,
+#boot,
+#sql,
+#gcp,
+#java,
+#mongo,
+#post,
+#npm,
+#node,
+#sass,
+#vscode,
+#ubuntu,
+#typescript,
+#terraform,
+#spring,
+#powershell,
+#postman,
+#mysql,
+#gradle,
+#eclipse,
+#mariadb,
+#linux,
+#kubernetes,
+#javascript,
+#html5,
+#github,
+#git,
+#azure,
+#docker,
+#electron,
+#apache,
+#androidstudio,
+#angular,
+#firebase,
+#flutter {
+  z-index: 0;
+  position: absolute;
+  font-size: 8vh;
+  color: $primary-color;
+  opacity: 0.2;
+}
+#dart {
+  top: 10vh;
+  left: 8vw;
+}
+#css {
+  top: 24vh;
+  left: 72vw;
+}
+#boot {
+  top: 25vh;
+  left: 15vw;
+}
+#sql {
+  top: 15vh;
+  left: 92vw;
+}
+#gcp {
+  top: 26vh;
+  left: 37vw;
+}
+#java {
+  top: 10vh;
+  left: 42vw;
+}
+#mongo {
+  top: 25vh;
+  left: 81vw;
+}
+#post {
+  top: 84vh;
+  left: 70vw;
+}
+#npm {
+  top: 24vh;
+  left: 26vw;
+}
+#node {
+  top: 68vh;
+  left: 14vw;
+}
+#sass {
+  top: 65vh;
+  left: 24vw;
+}
+#vscode {
+  top: 28vh;
+  left: 4vw;
+}
+#ubuntu {
+  top: 47vh;
+  left: 1vw;
+}
+#typescript {
+  top: 64vh;
+  left: 4vw;
+}
+#terraform {
+  top: 10vh;
+  left: 50vw;
+}
+#spring {
+  top: 10vh;
+  left: 71vw;
+}
+
+#powershell {
+  top: 23vh;
+  left: 49vw;
+}
+#postman {
+  top: 25vh;
+  left: 61vw;
+}
+#mysql {
+  top: 35vh;
+  left: 93vw;
+}
+#gradle {
+  top: 51vh;
+  left: 91vw;
+}
+#eclipse {
+  top: 67vh;
+  left: 34vw;
+}
+
+#mariadb {
+  top: 85vh;
+  left: 20vw;
+}
+
+#linux {
+  top: 67vh;
+  left: 57vw;
+}
+
+#kubernetes {
+  top: 68vh;
+  left: 46vw;
+}
+#javascript {
+  top: 86vh;
+  left: 31vw;
+}
+#html5 {
+  top: 10vh;
+  left: 22vw;
+}
+#github {
+  top: 10vh;
+  left: 33vw;
+}
+#git {
+  top: 10vh;
+  left: 60vw;
+}
+#azure {
+  top: 10vh;
+  left: 82vw;
+}
+#docker {
+  top: 85vh;
+  left: 6vw;
+}
+#electron {
+  top: 88vh;
+  left: 40vw;
+}
+#apache {
+  top: 85vh;
+  left: 49vw;
+}
+#androidstudio {
+  top: 88vh;
+  left: 60vw;
+}
+#angular {
+  top: 68vh;
+  left: 68vw;
+}
+#firebase {
+  top: 66vh;
+  left: 78vw;
+}
+#flutter {
+  top: 85vh;
+  left: 80vw;
+}
+#aws {
+  top: 85vh;
+  left: 90vw;
+}
+
+.container-titulo {
+  z-index: 1;
 }
 .borda {
   border-radius: 0.5vh;
@@ -35,7 +233,7 @@ $quinary: #274a4c;
   font-size: 6vh;
 }
 .titulo {
-  color: #274a4c;
+  color: $primary-color;
   font-size: 12vh;
   opacity: 0;
   animation: text infinite 6s forwards;
@@ -49,9 +247,10 @@ $quinary: #274a4c;
 .sub-titulo {
   font-size: 3vh;
   margin-bottom: 4vh;
+  color: $primary-color;
 }
 .barra {
   width: 75vw;
   height: 0.3vh;
-  background-color: #326273;
+  background-color: $primary-color;
 }

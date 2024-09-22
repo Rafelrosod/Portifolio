@@ -5,17 +5,212 @@
   font-size: 6vh; }
 
 .home {
-  background-color: #e8d9c9;
+  background-color: #326273;
   height: 100vh;
   width: 100%;
   font-family: "Gowun Batang";
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
+
+#aws,
+#dart,
+#css,
+#boot,
+#sql,
+#gcp,
+#java,
+#mongo,
+#post,
+#npm,
+#node,
+#sass,
+#vscode,
+#ubuntu,
+#typescript,
+#terraform,
+#spring,
+#powershell,
+#postman,
+#mysql,
+#gradle,
+#eclipse,
+#mariadb,
+#linux,
+#kubernetes,
+#javascript,
+#html5,
+#github,
+#git,
+#azure,
+#docker,
+#electron,
+#apache,
+#androidstudio,
+#angular,
+#firebase,
+#flutter {
+  z-index: 0;
+  position: absolute;
+  font-size: 8vh;
+  color: #fcf6b1;
+  opacity: 0.2; }
+
+#dart {
+  top: 10vh;
+  left: 8vw; }
+
+#css {
+  top: 24vh;
+  left: 72vw; }
+
+#boot {
+  top: 25vh;
+  left: 15vw; }
+
+#sql {
+  top: 15vh;
+  left: 92vw; }
+
+#gcp {
+  top: 26vh;
+  left: 37vw; }
+
+#java {
+  top: 10vh;
+  left: 42vw; }
+
+#mongo {
+  top: 25vh;
+  left: 81vw; }
+
+#post {
+  top: 84vh;
+  left: 70vw; }
+
+#npm {
+  top: 24vh;
+  left: 26vw; }
+
+#node {
+  top: 68vh;
+  left: 14vw; }
+
+#sass {
+  top: 65vh;
+  left: 24vw; }
+
+#vscode {
+  top: 28vh;
+  left: 4vw; }
+
+#ubuntu {
+  top: 47vh;
+  left: 1vw; }
+
+#typescript {
+  top: 64vh;
+  left: 4vw; }
+
+#terraform {
+  top: 10vh;
+  left: 50vw; }
+
+#spring {
+  top: 10vh;
+  left: 71vw; }
+
+#powershell {
+  top: 23vh;
+  left: 49vw; }
+
+#postman {
+  top: 25vh;
+  left: 61vw; }
+
+#mysql {
+  top: 35vh;
+  left: 93vw; }
+
+#gradle {
+  top: 51vh;
+  left: 91vw; }
+
+#eclipse {
+  top: 67vh;
+  left: 34vw; }
+
+#mariadb {
+  top: 85vh;
+  left: 20vw; }
+
+#linux {
+  top: 67vh;
+  left: 57vw; }
+
+#kubernetes {
+  top: 68vh;
+  left: 46vw; }
+
+#javascript {
+  top: 86vh;
+  left: 31vw; }
+
+#html5 {
+  top: 10vh;
+  left: 22vw; }
+
+#github {
+  top: 10vh;
+  left: 33vw; }
+
+#git {
+  top: 10vh;
+  left: 60vw; }
+
+#azure {
+  top: 10vh;
+  left: 82vw; }
+
+#docker {
+  top: 85vh;
+  left: 6vw; }
+
+#electron {
+  top: 88vh;
+  left: 40vw; }
+
+#apache {
+  top: 85vh;
+  left: 49vw; }
+
+#androidstudio {
+  top: 88vh;
+  left: 60vw; }
+
+#angular {
+  top: 68vh;
+  left: 68vw; }
+
+#firebase {
+  top: 66vh;
+  left: 78vw; }
+
+#flutter {
+  top: 85vh;
+  left: 80vw; }
+
+#aws {
+  top: 85vh;
+  left: 90vw; }
+
+.container-titulo {
+  z-index: 1; }
 
 .borda {
   border-radius: 0.5vh;
-  border: #326273;
+  border: #fcf6b1;
   border-style: solid;
   border-width: 0.2vw;
   width: 80vw;
@@ -29,7 +224,7 @@
   font-size: 6vh; }
 
 .titulo {
-  color: #274a4c;
+  color: #fcf6b1;
   font-size: 12vh;
   opacity: 0;
   animation: text infinite 6s forwards; }
@@ -40,12 +235,13 @@
 
 .sub-titulo {
   font-size: 3vh;
-  margin-bottom: 4vh; }
+  margin-bottom: 4vh;
+  color: #fcf6b1; }
 
 .barra {
   width: 75vw;
   height: 0.3vh;
-  background-color: #326273; }
+  background-color: #fcf6b1; }
 
 .gowun-batang-bold {
   font-family: "Gowun Batang", serif;
@@ -54,7 +250,7 @@
   font-size: 6vh; }
 
 .projetos {
-  background-color: #e8d9c9;
+  background-color: #fcf6b1;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -74,46 +270,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-color: #326273;
-  border-style: solid;
-  border-width: 2px 0px 2px 0px; }
+  border-color: #3f293c;
+  border-width: 0 0px 1px 0px;
+  border-style: solid; }
 
 .container-text,
 .container-text-1,
 .container-text-2,
 .container-text-3 {
-  border-width: 2px;
   border-style: solid;
-  border-color: #326273;
+  border-color: #3f293c;
   display: flex;
   align-items: center;
   justify-content: center; }
 
 .container-text {
   width: 41vw;
-  height: 85vh; }
+  height: 85vh;
+  border-width: 1px; }
 
 .container-text-1 {
   width: 38vw;
-  height: 77vh; }
+  height: 77vh;
+  border-width: 2px; }
 
 .container-text-2 {
   width: 35vw;
-  height: 69vh; }
+  height: 69vh;
+  border-width: 3px; }
 
 .container-text-3 {
   width: 32vw;
-  height: 61vh; }
+  height: 61vh;
+  border-width: 4px; }
 
 .container-text-4 {
   width: 29vw;
   height: 59vh;
+  border-width: 5px;
   display: flex;
   flex-direction: column; }
 
 .description-title {
   font-size: 6vh;
-  color: #326273; }
+  color: #3f293c; }
 
 .description-text {
   font-size: 3vh;
@@ -122,15 +322,15 @@
 
 .button-mais {
   text-decoration: none;
-  background-color: #326273;
-  color: #e8d9c9;
+  background-color: #3f293c;
+  color: #fcf6b1;
   border-width: 1px;
-  border-color: #326273;
+  border-color: #3f293c;
   width: 8vw;
   height: 6vh; }
 
 .button-mais:hover {
-  background-color: #e8d9c9;
+  background-color: #fcf6b1;
   color: #326273; }
 
 .indices {
@@ -139,7 +339,7 @@
   flex-direction: column; }
 
 .qtd:hover {
-  color: white; }
+  color: #fcf6b1; }
 
 .row,
 .row1,
@@ -149,7 +349,7 @@
 .pintado {
   width: 20vw;
   height: 31vh;
-  background-color: #326273;
+  background-color: #3f293c;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,7 +357,7 @@
 
 .texto {
   border: groove;
-  border-color: #326273;
+  border-color: #3f293c;
   border-width: 1px;
   width: 20vw;
   height: 31vh;
@@ -166,7 +366,7 @@
   align-items: center; }
 
 .rotate {
-  border-color: #326273;
+  border-color: #3f293c;
   border-style: solid;
   border-width: 1px 0px 1px 0px;
   height: 93vh;
@@ -181,6 +381,78 @@
   writing-mode: vertical-rl;
   text-orientation: upright; }
 
+.gowun-batang-bold {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6vh; }
+
+.sobre {
+  height: 93vh;
+  width: 100%;
+  color: #fcf6b1;
+  background-color: #fcf6b1;
+  display: flex;
+  position: relative; }
+
+.cont {
+  height: 93vh;
+  width: 25vw;
+  background-color: #fcf6b1;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center; }
+
+.sub-cont {
+  width: 16vw;
+  height: 60vh;
+  background-color: #326273;
+  position: absolute;
+  left: 4vw; }
+
+.titulo-s {
+  position: absolute;
+  font-size: 10vh;
+  top: 20vh;
+  left: 2vw;
+  text-orientation: upright;
+  writing-mode: vertical-lr; }
+
+.cont-1 {
+  height: 93vh;
+  width: 23vw;
+  display: flex;
+  align-items: center; }
+
+.img {
+  width: 16vw;
+  height: 50vh;
+  z-index: 1;
+  position: absolute;
+  left: 6vw;
+  top: 22vh; }
+
+.linha {
+  width: 32vw;
+  font-size: 2.5vh;
+  color: black;
+  font-family: "Gowun Batang", serif; }
+
+.letra {
+  font-size: 6vh;
+  color: #326273; }
+
+.artigos {
+  height: 93vh;
+  width: 100%;
+  background-color: #fcf6b1; }
+
+.contato {
+  height: 93vh;
+  width: 100%;
+  background-color: #3f293c; }
+
 * {
   margin: 0;
   padding: 0;
@@ -188,9 +460,9 @@
 
 .navbar {
   display: flex;
-  color: white;
+  color: black;
   justify-content: center;
-  background-color: #326273;
+  background-color: #fcf6b1;
   position: fixed;
   top: 0;
   left: 0;
@@ -204,11 +476,12 @@
   backdrop-filter: blur(10px);
   align-items: center; }
 
-.navbar li {
+a {
   font-size: 20px;
   letter-spacing: 1px;
   padding-right: 5vw;
-  padding-left: 5vw; }
+  padding-left: 5vw;
+  text-decoration: none; }
 
-.navbar li:hover {
-  color: #3f293c; }
+a:hover {
+  color: #326273; }

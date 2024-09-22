@@ -1,8 +1,11 @@
 @import "home";
 @import "projetos";
+@import "sobre";
+@import "artigos";
+@import "contato";
 
 $primary-color: #326273;
-$secondary-color: #e8d9c9;
+$secondary-color: #fcf6b1;
 $tertiary: #3f293c;
 $quaternary: #70413c;
 $quinary: #274a4c;
@@ -12,13 +15,11 @@ $quinary: #274a4c;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-}
 .navbar {
   display: flex;
-  color: white;
+  color: black;
   justify-content: center;
-  background-color: $primary-color;
+  background-color: $secondary-color;
   position: fixed;
   top: 0;
   left: 0;
@@ -32,12 +33,13 @@ body {
   backdrop-filter: blur(10px);
   align-items: center;
 }
-.navbar li {
+a {
   font-size: 20px;
   letter-spacing: 1px;
   padding-right: 5vw;
   padding-left: 5vw;
+  text-decoration: none;
 }
-.navbar li:hover {
-  color: $tertiary;
+a:hover {
+  color: $primary-color;
 }

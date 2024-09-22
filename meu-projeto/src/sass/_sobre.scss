@@ -1,0 +1,68 @@
+$primary-color: #326273;
+$secondary-color: #fcf6b1;
+$tertiary: #3f293c;
+
+.gowun-batang-bold {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6vh;
+}
+
+.sobre {
+  height: 93vh;
+  width: 100%;
+  color: $secondary-color;
+  background-color: $secondary-color;
+  display: flex;
+  position: relative;
+}
+.cont {
+  height: 93vh;
+  width: 25vw;
+  background-color: $secondary-color;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.sub-cont {
+  width: 16vw;
+  height: 60vh;
+  background-color: $primary-color;
+  position: absolute;
+  left: 4vw;
+}
+.titulo-s {
+  position: absolute;
+  font-size: 10vh;
+  top: 20vh;
+  left: 2vw;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+}
+.cont-1 {
+  height: 93vh;
+  width: 23vw;
+  display: flex;
+  align-items: center;
+}
+.img {
+  width: 16vw;
+  height: 50vh;
+  z-index: 1;
+  position: absolute;
+  left: 6vw;
+  top: 22vh;
+}
+
+.linha {
+  width: 32vw;
+  font-size: 2.5vh;
+  color: black;
+  font-family: "Gowun Batang", serif;
+}
+.letra {
+  font-size: 6vh;
+  color: $primary-color;
+}

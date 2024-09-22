@@ -1,8 +1,6 @@
 $primary-color: #326273;
-$secondary-color: #e8d9c9;
+$secondary-color: #fcf6b1;
 $tertiary: #3f293c;
-$quaternary: #70413c;
-$quinary: #274a4c;
 
 .gowun-batang-bold {
   font-family: "Gowun Batang", serif;
@@ -32,17 +30,16 @@ $quinary: #274a4c;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-color: $primary-color;
+  border-color: #3f293c;
+  border-width: 0 0px 1px 0px;
   border-style: solid;
-  border-width: 2px 0px 2px 0px;
 }
 .container-text,
 .container-text-1,
 .container-text-2,
 .container-text-3 {
-  border-width: 2px;
   border-style: solid;
-  border-color: $primary-color;
+  border-color: $tertiary;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,28 +47,33 @@ $quinary: #274a4c;
 .container-text {
   width: 41vw;
   height: 85vh;
+  border-width: 1px;
 }
 .container-text-1 {
   width: 38vw;
   height: 77vh;
+  border-width: 2px;
 }
 .container-text-2 {
   width: 35vw;
   height: 69vh;
+  border-width: 3px;
 }
 .container-text-3 {
   width: 32vw;
   height: 61vh;
+  border-width: 4px;
 }
 .container-text-4 {
   width: 29vw;
   height: 59vh;
+  border-width: 5px;
   display: flex;
   flex-direction: column;
 }
 .description-title {
   font-size: 6vh;
-  color: $primary-color;
+  color: $tertiary;
 }
 .description-text {
   font-size: 3vh;
@@ -80,10 +82,10 @@ $quinary: #274a4c;
 }
 .button-mais {
   text-decoration: none;
-  background-color: $primary-color;
+  background-color: $tertiary;
   color: $secondary-color;
   border-width: 1px;
-  border-color: $primary-color;
+  border-color: $tertiary;
   width: 8vw;
   height: 6vh;
 }
@@ -98,7 +100,7 @@ $quinary: #274a4c;
   flex-direction: column;
 }
 .qtd:hover {
-  color: white;
+  color: $secondary-color;
 }
 .row,
 .row1,
@@ -108,7 +110,7 @@ $quinary: #274a4c;
 .pintado {
   width: 20vw;
   height: 31vh;
-  background-color: $primary-color;
+  background-color: $tertiary;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +118,7 @@ $quinary: #274a4c;
 }
 .texto {
   border: groove;
-  border-color: $primary-color;
+  border-color: $tertiary;
   border-width: 1px;
   width: 20vw;
   height: 31vh;
@@ -125,7 +127,7 @@ $quinary: #274a4c;
   align-items: center;
 }
 .rotate {
-  border-color: $primary-color;
+  border-color: $tertiary;
   border-style: solid;
   border-width: 1px 0px 1px 0px;
   height: 93vh;
