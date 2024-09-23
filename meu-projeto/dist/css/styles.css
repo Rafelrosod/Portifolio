@@ -5,7 +5,7 @@
   font-size: 6vh; }
 
 .home {
-  background-color: #326273;
+  background-color: #7ea172;
   height: 100vh;
   width: 100%;
   font-family: "Gowun Batang";
@@ -54,7 +54,7 @@
   z-index: 0;
   position: absolute;
   font-size: 8vh;
-  color: #fcf6b1;
+  color: #eef5db;
   opacity: 0.2; }
 
 #dart {
@@ -210,7 +210,7 @@
 
 .borda {
   border-radius: 0.5vh;
-  border: #fcf6b1;
+  border: #eef5db;
   border-style: solid;
   border-width: 0.2vw;
   width: 80vw;
@@ -224,7 +224,7 @@
   font-size: 6vh; }
 
 .titulo {
-  color: #fcf6b1;
+  color: #eef5db;
   font-size: 12vh;
   opacity: 0;
   animation: text infinite 6s forwards; }
@@ -236,12 +236,12 @@
 .sub-titulo {
   font-size: 3vh;
   margin-bottom: 4vh;
-  color: #fcf6b1; }
+  color: #eef5db; }
 
 .barra {
   width: 75vw;
   height: 0.3vh;
-  background-color: #fcf6b1; }
+  background-color: #eef5db; }
 
 .gowun-batang-bold {
   font-family: "Gowun Batang", serif;
@@ -250,7 +250,7 @@
   font-size: 6vh; }
 
 .projetos {
-  background-color: #fcf6b1;
+  background-color: #eef5db;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -263,7 +263,7 @@
 .descritivo,
 .indices {
   height: 93vh;
-  border: #326273; }
+  border: #7ea172; }
 
 .descritivo {
   width: 45vw;
@@ -323,15 +323,15 @@
 .button-mais {
   text-decoration: none;
   background-color: #3f293c;
-  color: #fcf6b1;
+  color: #eef5db;
   border-width: 1px;
   border-color: #3f293c;
   width: 8vw;
   height: 6vh; }
 
 .button-mais:hover {
-  background-color: #fcf6b1;
-  color: #326273; }
+  background-color: #eef5db;
+  color: #7ea172; }
 
 .indices {
   display: flex;
@@ -339,7 +339,7 @@
   flex-direction: column; }
 
 .qtd:hover {
-  color: #fcf6b1; }
+  color: #eef5db; }
 
 .row,
 .row1,
@@ -390,15 +390,15 @@
 .sobre {
   height: 93vh;
   width: 100%;
-  color: #fcf6b1;
-  background-color: #fcf6b1;
+  color: #eef5db;
+  background-color: #eef5db;
   display: flex;
   position: relative; }
 
 .cont {
   height: 93vh;
   width: 25vw;
-  background-color: #fcf6b1;
+  background-color: #eef5db;
   display: flex;
   justify-content: center;
   display: flex;
@@ -407,7 +407,7 @@
 .sub-cont {
   width: 16vw;
   height: 60vh;
-  background-color: #326273;
+  background-color: #7ea172;
   position: absolute;
   left: 4vw; }
 
@@ -421,7 +421,7 @@
 
 .cont-1 {
   height: 93vh;
-  width: 23vw;
+  width: 30vw;
   display: flex;
   align-items: center; }
 
@@ -437,16 +437,138 @@
   width: 32vw;
   font-size: 2.5vh;
   color: black;
-  font-family: "Gowun Batang", serif; }
+  font-family: "Gowun Batang", serif;
+  padding: 2vw; }
 
 .letra {
   font-size: 6vh;
-  color: #326273; }
+  color: #7ea172; }
+
+.cont-2 {
+  background-color: #7ea172;
+  width: 45vw;
+  height: 93vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.column-1,
+.column-2 {
+  width: 22.3vw;
+  height: 93vh;
+  background-color: #7ea172; }
+
+.linha-meio {
+  width: 0.4vw;
+  height: 75vh;
+  background-color: #eef5db; }
+
+.column-1,
+.column-2 {
+  display: flex;
+  flex-direction: column; }
+
+.column-1 {
+  align-items: end;
+  padding-right: 2vw;
+  padding-top: 6vh; }
+
+.column-2 {
+  align-items: baseline;
+  padding-left: 2vw;
+  padding-top: 10vh; }
+
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6 {
+  color: #eef5db;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  width: 15vw;
+  height: 22vh;
+  font-size: 2.5vh; }
+
+.titulo-1,
+.titulo-3,
+.titulo-5,
+.titulo-2,
+.titulo-4,
+.titulo-6 {
+  background-color: #eef5db;
+  border-radius: 0.5vh;
+  color: #3f293c;
+  height: 5vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.corpo-texto-1,
+.corpo-texto-3,
+.corpo-texto-5,
+.corpo-texto-2,
+.corpo-texto-4,
+.corpo-texto-6 {
+  text-align: center;
+  overflow: hidden; }
+
+.style-text {
+  color: #3f293c;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
 .artigos {
   height: 93vh;
   width: 100%;
-  background-color: #fcf6b1; }
+  background-color: #eef5db;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80vw;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.carousel-slide {
+  display: none;
+  padding: 20px;
+  text-align: center;
+  background-color: #7ea172;
+  width: 75vw;
+  height: 74vh;
+  box-sizing: border-box; }
+
+.active {
+  display: block; }
+
+#button,
+#button1 {
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.prev {
+  left: 10px; }
+
+.next {
+  right: 10px; }
+
+.artigo-lambda {
+  width: 35vw;
+  height: 74vh; }
 
 .contato {
   height: 93vh;
@@ -462,12 +584,14 @@
   display: flex;
   color: black;
   justify-content: center;
-  background-color: #fcf6b1;
+  background-color: #eef5db;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
-  width: 100%; }
+  width: 100%;
+  border-width: 0 0 1px 0;
+  border-style: solid; }
 
 .navbar ul {
   list-style: none;
@@ -481,7 +605,8 @@ a {
   letter-spacing: 1px;
   padding-right: 5vw;
   padding-left: 5vw;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #3f293c; }
 
 a:hover {
   color: #326273; }

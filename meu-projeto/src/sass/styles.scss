@@ -5,7 +5,7 @@
 @import "contato";
 
 $primary-color: #326273;
-$secondary-color: #fcf6b1;
+$secondary-color: #eef5db;
 $tertiary: #3f293c;
 $quaternary: #70413c;
 $quinary: #274a4c;
@@ -25,6 +25,8 @@ $quinary: #274a4c;
   left: 0;
   z-index: 1000;
   width: 100%;
+  border-width: 0 0 1px 0;
+  border-style: solid;
 }
 .navbar ul {
   list-style: none;
@@ -39,6 +41,7 @@ a {
   padding-right: 5vw;
   padding-left: 5vw;
   text-decoration: none;
+  color: $tertiary;
 }
 a:hover {
   color: $primary-color;

@@ -1,5 +1,5 @@
-$primary-color: #326273;
-$secondary-color: #fcf6b1;
+$primary-color: #7ea172;
+$secondary-color: #eef5db;
 $tertiary: #3f293c;
 
 .gowun-batang-bold {
@@ -43,7 +43,7 @@ $tertiary: #3f293c;
 }
 .cont-1 {
   height: 93vh;
-  width: 23vw;
+  width: 30vw;
   display: flex;
   align-items: center;
 }
@@ -61,8 +61,86 @@ $tertiary: #3f293c;
   font-size: 2.5vh;
   color: black;
   font-family: "Gowun Batang", serif;
+  padding: 2vw;
 }
 .letra {
   font-size: 6vh;
   color: $primary-color;
+}
+.cont-2 {
+  background-color: $primary-color;
+  width: 45vw;
+  height: 93vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.column-1,
+.column-2 {
+  width: 22.3vw;
+  height: 93vh;
+  background-color: $primary-color;
+}
+.linha-meio {
+  width: 0.4vw;
+  height: 75vh;
+  background-color: $secondary-color;
+}
+.column-1,
+.column-2 {
+  display: flex;
+  flex-direction: column;
+}
+.column-1 {
+  align-items: end;
+  padding-right: 2vw;
+  padding-top: 6vh;
+}
+.column-2 {
+  align-items: baseline;
+  padding-left: 2vw;
+  padding-top: 10vh;
+}
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6 {
+  color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  width: 15vw;
+  height: 22vh;
+  font-size: 2.5vh;
+}
+.titulo-1,
+.titulo-3,
+.titulo-5,
+.titulo-2,
+.titulo-4,
+.titulo-6 {
+  background-color: #eef5db;
+  border-radius: 0.5vh;
+  color: $tertiary;
+  height: 5vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.corpo-texto-1,
+.corpo-texto-3,
+.corpo-texto-5,
+.corpo-texto-2,
+.corpo-texto-4,
+.corpo-texto-6 {
+  text-align: center;
+  overflow: hidden;
+}
+.style-text {
+  color: $tertiary;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
