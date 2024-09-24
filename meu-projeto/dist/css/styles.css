@@ -543,7 +543,7 @@
   padding: 20px;
   text-align: center;
   background-color: #7ea172;
-  width: 75vw;
+  width: 76vw;
   height: 74vh;
   box-sizing: border-box; }
 
@@ -566,8 +566,14 @@
 .next {
   right: 10px; }
 
+.artigo-1 {
+  display: flex; }
+
 .artigo-lambda {
-  width: 35vw;
+  width: 38vw; }
+
+.artigo-lambda-1 {
+  width: 38vw;
   height: 74vh; }
 
 .contato {
